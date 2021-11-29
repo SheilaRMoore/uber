@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.3
+4 verbose npm-session a35719c5604ba044
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly pacote directory manifest for undefined@file: fetched in 27ms
+8 timing stage:loadCurrentTree Completed in 37ms
+9 silly install loadIdealTree
+10 silly install cloneCurrentTreeToIdealTree
+11 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+12 silly install loadShrinkwrap
+13 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+14 silly install loadAllDepsIntoIdealTree
+15 timing stage:rollbackFailedOptional Completed in 1ms
+16 timing stage:runTopLevelLifecycles Completed in 40ms
+17 verbose stack Error: Can't install C:\Users\shere\documents\uber: Missing package version
+17 verbose stack     at hasMinimumFields (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:28:15)
+17 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+17 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+17 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+17 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+17 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+17 verbose stack     at Array.forEach (<anonymous>)
+17 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+17 verbose stack     at Array.forEach (<anonymous>)
+17 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+17 verbose stack     at module.exports (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:15:3)
+17 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+17 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+17 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+17 verbose stack     at Installer.loadAllDepsIntoIdealTree (C:\Program Files\nodejs\node_modules\npm\lib\install.js:483:3)
+17 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+18 verbose cwd C:\Users\shere\documents\uber
+19 verbose Windows_NT 10.0.19042
+20 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g"
+21 verbose node v14.17.3
+22 verbose npm  v6.14.13
+23 error Can't install C:\Users\shere\documents\uber: Missing package version
+24 verbose exit [ 1, true ]
